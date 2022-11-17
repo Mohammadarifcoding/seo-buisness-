@@ -1,0 +1,485 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  /*header starts*/
+  .header{
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.3)),url(gggg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100vw;
+  }
+  .header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    
+  }
+  .header ul li{
+    text-decoration: none;
+    padding-top: 20px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 300;
+  }
+  .header ul li a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+  
+  }
+  .header ul .aa{
+    margin-left:17vw;
+  }
+  .header ul .aab{
+    margin-right: 17vw; 
+  }
+  .container{
+    color: white;
+    margin-top: 16vh;
+    margin-left:20vw;
+    margin-right: 53vw;
+  }
+  .container h1{
+    font-size:44px;
+    font-family: 'Roboto';
+    font-weight: lighter;
+  }
+  .container p{
+    font-family: 'Roboto';
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  .button{
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+  }
+  .email{
+    padding: 12px 23px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 25px;
+  }
+  .btn{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color:#009BE8;
+    padding: 13px 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  .btn:hover{
+    background-color:#027dbb;
+  }
+  .header ul li a:hover{
+    border-bottom: 3px solid white;
+  }
+  /*header ends*/
+  /*What can we do starts*/
+  .we-can-do{
+    background-color: rgba(250, 247, 247, 0);
+    padding-top: 60px;
+    text-align: center;
+  }
+  .we-can-do h1{
+    color:rgb(22, 154, 206);
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-bottom: 20px;
+  }
+  .we-can-do p{
+    color:black;
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 28vw;
+    margin-right: 28vw;
+    margin-bottom: 40px;
+  }
+  .we-can-do .imgs{
+    margin-right:6vw;
+  }
+  .we-can-do .imgs img{
+    width:400px;
+    height: 330px;
+    margin-bottom: 50px; 
+  }
+  
+  /*what can we do ends*/
+  /*costing starts*/
+  .costing{
+    padding-top:70px;
+    background-color:#009BE8;
+    padding-right:10vw;
+    padding-left: 10vw;
+    padding-bottom: 100px;
+  }
+  .costing .head h1{
+   text-align: center;
+   color:white;
+   font-family: sans-serif;
+   font-weight: 200;
+   margin-bottom: 20px;
+  }
+  .costing .head p{
+    text-align: center;
+    color: white;
+    font-family:sans-serif;
+    font-weight: 200;
+    font-size:15px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 20px;
+  }
+  .costing .cards{
+   width:100%;  
+   margin-top: 50px;
+   
+  }
+  .cards::after{
+    clear: both;
+    display:table;
+    content: '';
+  }
+  .costing .cards .card{
+    background-color: white;
+    border:1px solid gray;
+    width:31%;
+    float: left;
+    margin-right:20px;
+  }
+  .costing .cards .card h1{
+    background-color:rgb(230, 227, 227);
+    color:gray;
+    font-size:22px;
+    font-family: sans-serif;
+    font-weight:700;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom:13px;
+  }
+  .costing .cards .card h2{
+    color:#009BE8;
+    font-size: 80px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 5px;
+  }
+  .costing .cards .card h3,.costing .cards .card h4,.costing .cards .card h5 {
+    color: gray;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: 13px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .costing .cards .card .card-btn{
+    margin-top: 60px;
+    width:87%;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 13px 12px;
+    color: white;
+    background-color:#2ECC71;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px; 
+  }
+  .costing .cards .card .card-btn:hover{
+    background-color: #24a55a;
+  }
+  
+  /*costing ends*/
+  /*reviews starts*/
+  .reviews{
+    padding-top: 80px;
+    background-color: aliceblue;
+    padding-bottom: 70px;
+  
+  }
+  .reviews h1{
+      color:rgb(22, 154, 206);
+      font-family: sans-serif;
+      font-weight: lighter;
+      margin-bottom: 20px;
+      font-size:30px;
+      text-align: center;
+    }
+    .reviews p{
+      color:rgb(22, 154, 206);
+      font-family: sans-serif; 
+      font-size: 15px;
+      text-align: center;
+      margin-left: 26vw;
+      margin-right: 26vw;
+      margin-bottom: 35px;
+    }
+    .reviews .column{
+      margin-top:10px;
+      display: flex;
+      flex-direction:row;
+      justify-content: center;
+      align-items: center;
+      margin-left: 10vw;
+      margin-right: 10vw;
+    }
+    .reviews .column .review{
+      display: flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items: center;
+      width:28%;
+      border: 1px solid black;
+      margin: 20px;
+      padding: 20px;
+      float: left;
+      
+    }
+    .reviews .information {
+      display: flex;
+      flex-direction: row;
+      
+      justify-content: space-between;
+      margin-top: 25px;
+      float: left;
+      margin-left: 0;
+  
+  
+    }
+    .reviews .column .review h3{
+      font-family: 'Edu QLD Beginner', cursive;
+      font-size: 20px;
+    }
+    .reviews .review .information img{
+      width: 70px;
+      border-radius:100%;
+  
+    }
+    .reviews .review .information h4{
+      margin-top: 15px;
+      margin-left: 15px;
+      font-family: sans-serif;
+      font-weight: bolder;
+  
+    }
+  
+  /*reviews ends*/
+  /*newsletter starts*/
+  .newsletter{
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)), url(keyboard.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 40vh;
+    padding: 50px
+  }
+  .newsletter h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .newsletter p{
+    color:white;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .newsletter-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+  }
+  .newsletter-sec .btn-newsletter{
+    color:white;
+    background-color: #009BE8;
+    padding: 12px 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+  }
+  .newsletter-sec .btn-newsletter:hover{
+    background-color: #027dbb;
+  }
+  /*newsletter ends*/
+  /*footer starts*/
+  footer{
+    padding: 10px;
+    background-color: #009BE8;
+  }
+  .heading-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding: 15px 5px;
+    margin-bottom: 30px;
+  }
+  .heading-footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+  }
+  .heading-footer ul li{
+    display: block;
+    margin-left: 10px;
+  }
+  .heading-footer ul li a{
+    text-decoration: none;
+    color:white;
+    font-family:sans-serif;
+    font-size: 15px;
+  
+  }
+  .heading-footer .contact-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .heading-footer .contact-footer h1{
+    color:white;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+  .heading-footer .contact-footer p{
+   color: white;
+   margin-top: 0px;
+   margin-left: 20px;
+   width:100px;
+  }
+  /*footer ends*/
+  
+  
+  @media screen and (max-width:1200px) {
+    .container{
+      margin-top: 17vh;
+      margin-left: 10vh;
+      margin-right: 30vh;
+    }
+    .we-can-do .imgs{
+      margin-right:0;
+    }
+    .we-can-do p{
+      margin-right:13vw;
+      margin-left:13vw;
+    }
+    .costing .cards{
+      width:100%;
+      display: row;
+    }
+    .costing .cards .card{
+      width:46%;
+      margin-bottom: 30px;
+    }
+    .reviews .column{
+      display: flex;
+      flex-direction:row;
+      justify-content: center;
+      align-items: center;
+      margin-left: 5vw;
+      margin-right: 5vw;
+    }
+    .reviews .column .review{
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+      float: left;   
+    }
+    .heading-footer{
+      margin-left: 0vw;
+      margin-right:0vw;
+      width:100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .heading-footer ul{
+      margin-left: 10px;
+      margin-bottom: 50px;
+    }
+  
+  }
+  @media screen and (max-width:728px) {
+    .container{
+      margin-top: 15vh;
+      margin-left: 10vh;
+      margin-right: 10vh;
+    }
+    .we-can-do .imgs{
+      margin-right: 0vw;
+    }
+    .we-can-do p{
+      margin-left:5vw;
+      margin-right: 5vw;
+    }
+    .costing .cards{
+      display: row;
+      width:100%;
+    }
+    .costing .cards .card{
+      width:100%;
+      margin-bottom: 50px;
+    }
+    .reviews p{
+      margin-left:5vw;
+      margin-right: 5vw;
+    }
+    .reviews .column{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 5vw;
+      margin-right: 5vw;
+    }
+    .reviews .column .review{
+      width:100%;
+      margin-right: 10vw;
+      margin-left: 10vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+   
+    .heading-footer{
+      margin-left:0;
+      margin-right:0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .heading-footer ul{
+      margin-bottom: 40px;
+    }
+  
+  }
